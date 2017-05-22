@@ -7,7 +7,11 @@ static NSInteger lineAmount = 4; // Default.
 %hook NCNotificationShortLookView
 
 -(void)setMessageNumberOfLines:(NSUInteger)messageNumberOfLines {
-	%orig(lineAmount);
+	if(Enabled == YES) {
+		%orig(lineAmount);
+	} else if(Enabled == NO) {
+		%orig;
+	}
 }
 
 %end
