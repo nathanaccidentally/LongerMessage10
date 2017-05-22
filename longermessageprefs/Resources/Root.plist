@@ -30,7 +30,7 @@
    		 	<key>bestGuess</key>
    		 	<string>4</string>
    		 	<key>defaults</key>
-   		 	<string>com.nathanaccidentally.classicpreffs</string>
+   		 	<string>com.nathanaccidentally.longermessageprefs</string>
    			<key>isNumeric</key>
    		 	<true/>
    		 	<key>key</key>
@@ -54,6 +54,6 @@
 		</dict>
 	</array>
 	<key>title</key>
-	<string>LongerMessagePrefs</string>
+	<string>LongerMessage10</string>
 </dict>
 </plist>
